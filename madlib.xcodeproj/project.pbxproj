@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F706F54228D8C2AE00CA822B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F54128D8C2AE00CA822B /* AppDelegate.swift */; };
+		F706F54428D8C2AE00CA822B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F54328D8C2AE00CA822B /* SceneDelegate.swift */; };
+		F706F54628D8C2AE00CA822B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F54528D8C2AE00CA822B /* ViewController.swift */; };
+		F706F54928D8C2AE00CA822B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F706F54728D8C2AE00CA822B /* Main.storyboard */; };
+		F706F54B28D8C2B000CA822B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F706F54A28D8C2B000CA822B /* Assets.xcassets */; };
+		F706F54E28D8C2B000CA822B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F706F54C28D8C2B000CA822B /* LaunchScreen.storyboard */; };
+		F706F55928D8C2B000CA822B /* madlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F55828D8C2B000CA822B /* madlibTests.swift */; };
+		F706F56328D8C2B000CA822B /* madlibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F56228D8C2B000CA822B /* madlibUITests.swift */; };
+		F706F56528D8C2B000CA822B /* madlibUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F706F56428D8C2B000CA822B /* madlibUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F706F55528D8C2B000CA822B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F706F53628D8C2AE00CA822B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F706F53D28D8C2AE00CA822B;
+			remoteInfo = madlib;
+		};
+		F706F55F28D8C2B000CA822B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F706F53628D8C2AE00CA822B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F706F53D28D8C2AE00CA822B;
+			remoteInfo = madlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F706F53E28D8C2AE00CA822B /* madlib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = madlib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F706F54128D8C2AE00CA822B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F706F54328D8C2AE00CA822B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F706F54528D8C2AE00CA822B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F706F54828D8C2AE00CA822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F706F54A28D8C2B000CA822B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F706F54D28D8C2B000CA822B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F706F54F28D8C2B000CA822B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F706F55428D8C2B000CA822B /* madlibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madlibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F706F55828D8C2B000CA822B /* madlibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madlibTests.swift; sourceTree = "<group>"; };
+		F706F55E28D8C2B000CA822B /* madlibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madlibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F706F56228D8C2B000CA822B /* madlibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madlibUITests.swift; sourceTree = "<group>"; };
+		F706F56428D8C2B000CA822B /* madlibUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madlibUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F706F53B28D8C2AE00CA822B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55128D8C2B000CA822B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55B28D8C2B000CA822B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F706F53528D8C2AE00CA822B = {
+			isa = PBXGroup;
+			children = (
+				F706F54028D8C2AE00CA822B /* madlib */,
+				F706F55728D8C2B000CA822B /* madlibTests */,
+				F706F56128D8C2B000CA822B /* madlibUITests */,
+				F706F53F28D8C2AE00CA822B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F706F53F28D8C2AE00CA822B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F706F53E28D8C2AE00CA822B /* madlib.app */,
+				F706F55428D8C2B000CA822B /* madlibTests.xctest */,
+				F706F55E28D8C2B000CA822B /* madlibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F706F54028D8C2AE00CA822B /* madlib */ = {
+			isa = PBXGroup;
+			children = (
+				F706F54128D8C2AE00CA822B /* AppDelegate.swift */,
+				F706F54328D8C2AE00CA822B /* SceneDelegate.swift */,
+				F706F54528D8C2AE00CA822B /* ViewController.swift */,
+				F706F54728D8C2AE00CA822B /* Main.storyboard */,
+				F706F54A28D8C2B000CA822B /* Assets.xcassets */,
+				F706F54C28D8C2B000CA822B /* LaunchScreen.storyboard */,
+				F706F54F28D8C2B000CA822B /* Info.plist */,
+			);
+			path = madlib;
+			sourceTree = "<group>";
+		};
+		F706F55728D8C2B000CA822B /* madlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				F706F55828D8C2B000CA822B /* madlibTests.swift */,
+			);
+			path = madlibTests;
+			sourceTree = "<group>";
+		};
+		F706F56128D8C2B000CA822B /* madlibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F706F56228D8C2B000CA822B /* madlibUITests.swift */,
+				F706F56428D8C2B000CA822B /* madlibUITestsLaunchTests.swift */,
+			);
+			path = madlibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F706F53D28D8C2AE00CA822B /* madlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F706F56828D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlib" */;
+			buildPhases = (
+				F706F53A28D8C2AE00CA822B /* Sources */,
+				F706F53B28D8C2AE00CA822B /* Frameworks */,
+				F706F53C28D8C2AE00CA822B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = madlib;
+			productName = madlib;
+			productReference = F706F53E28D8C2AE00CA822B /* madlib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F706F55328D8C2B000CA822B /* madlibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F706F56B28D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlibTests" */;
+			buildPhases = (
+				F706F55028D8C2B000CA822B /* Sources */,
+				F706F55128D8C2B000CA822B /* Frameworks */,
+				F706F55228D8C2B000CA822B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F706F55628D8C2B000CA822B /* PBXTargetDependency */,
+			);
+			name = madlibTests;
+			productName = madlibTests;
+			productReference = F706F55428D8C2B000CA822B /* madlibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F706F55D28D8C2B000CA822B /* madlibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F706F56E28D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlibUITests" */;
+			buildPhases = (
+				F706F55A28D8C2B000CA822B /* Sources */,
+				F706F55B28D8C2B000CA822B /* Frameworks */,
+				F706F55C28D8C2B000CA822B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F706F56028D8C2B000CA822B /* PBXTargetDependency */,
+			);
+			name = madlibUITests;
+			productName = madlibUITests;
+			productReference = F706F55E28D8C2B000CA822B /* madlibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F706F53628D8C2AE00CA822B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F706F53D28D8C2AE00CA822B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F706F55328D8C2B000CA822B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F706F53D28D8C2AE00CA822B;
+					};
+					F706F55D28D8C2B000CA822B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F706F53D28D8C2AE00CA822B;
+					};
+				};
+			};
+			buildConfigurationList = F706F53928D8C2AE00CA822B /* Build configuration list for PBXProject "madlib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F706F53528D8C2AE00CA822B;
+			productRefGroup = F706F53F28D8C2AE00CA822B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F706F53D28D8C2AE00CA822B /* madlib */,
+				F706F55328D8C2B000CA822B /* madlibTests */,
+				F706F55D28D8C2B000CA822B /* madlibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F706F53C28D8C2AE00CA822B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706F54E28D8C2B000CA822B /* LaunchScreen.storyboard in Resources */,
+				F706F54B28D8C2B000CA822B /* Assets.xcassets in Resources */,
+				F706F54928D8C2AE00CA822B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55228D8C2B000CA822B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55C28D8C2B000CA822B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F706F53A28D8C2AE00CA822B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706F54628D8C2AE00CA822B /* ViewController.swift in Sources */,
+				F706F54228D8C2AE00CA822B /* AppDelegate.swift in Sources */,
+				F706F54428D8C2AE00CA822B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55028D8C2B000CA822B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706F55928D8C2B000CA822B /* madlibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F706F55A28D8C2B000CA822B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F706F56328D8C2B000CA822B /* madlibUITests.swift in Sources */,
+				F706F56528D8C2B000CA822B /* madlibUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F706F55628D8C2B000CA822B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F706F53D28D8C2AE00CA822B /* madlib */;
+			targetProxy = F706F55528D8C2B000CA822B /* PBXContainerItemProxy */;
+		};
+		F706F56028D8C2B000CA822B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F706F53D28D8C2AE00CA822B /* madlib */;
+			targetProxy = F706F55F28D8C2B000CA822B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F706F54728D8C2AE00CA822B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F706F54828D8C2AE00CA822B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F706F54C28D8C2B000CA822B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F706F54D28D8C2B000CA822B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F706F56628D8C2B000CA822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F706F56728D8C2B000CA822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F706F56928D8C2B000CA822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = madlib/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F706F56A28D8C2B000CA822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = madlib/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F706F56C28D8C2B000CA822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/madlib.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/madlib";
+			};
+			name = Debug;
+		};
+		F706F56D28D8C2B000CA822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/madlib.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/madlib";
+			};
+			name = Release;
+		};
+		F706F56F28D8C2B000CA822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = madlib;
+			};
+			name = Debug;
+		};
+		F706F57028D8C2B000CA822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 725K596GTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FuturesLabJD.madlibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = madlib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F706F53928D8C2AE00CA822B /* Build configuration list for PBXProject "madlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706F56628D8C2B000CA822B /* Debug */,
+				F706F56728D8C2B000CA822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F706F56828D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706F56928D8C2B000CA822B /* Debug */,
+				F706F56A28D8C2B000CA822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F706F56B28D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706F56C28D8C2B000CA822B /* Debug */,
+				F706F56D28D8C2B000CA822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F706F56E28D8C2B000CA822B /* Build configuration list for PBXNativeTarget "madlibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F706F56F28D8C2B000CA822B /* Debug */,
+				F706F57028D8C2B000CA822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F706F53628D8C2AE00CA822B /* Project object */;
+}
